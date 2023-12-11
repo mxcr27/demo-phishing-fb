@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="icon" href="./Icon/2023_Facebook_icon.svg.png">
+    <link rel="stylesheet" href="./fb.css">
+    <meta http-equiv="Content-Language" content="vi">
+    <style>
+        p {
+            font-family: "Arial", sans-serif; 
+            color: #216fdb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./Icon/facebook-logo.svg">
+        </div>
+        <div class="input-group">
+            <input type="text" id="username" placeholder="Tên đăng nhập hoặc số điện thoại" required>
+        </div>
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Mật khẩu" required>
+        </div>
+        <div id="error" style="color: red;"></div>
+        <button onclick="Login()" class="submit-button">Đăng nhập</button>
+        <script src="script.js"></script>
+        <button onclick="ForgotPassword()" class="forgot-password">Quên mật khẩu?</button>
+        <div class="divider"></div>
+        <button onclick="CreateAccount()"class="create-account">Tạo tài khoản</button>
+        </div>
+    </div>
+</body>
+</html>
