@@ -113,6 +113,7 @@
     background-color: #007bff;
     cursor: pointer;
     margin-top: 15px;
+    text-align: center;
 }
 
 .forgot-password {
@@ -143,4 +144,32 @@
     color: #ffffff;
     cursor: pointer;
     text-align: center;
+}
+
+@media (width <=640px) {
+    .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    .input-group {
+        margin-bottom: 10px;
+    }
+
+    .input-group input {
+        box-sizing: border-box;
+    }
+
+    .submit-button {
+        width: 100%;
+    }
+
+    .create-account {
+        width: 100%;
+    }
 }

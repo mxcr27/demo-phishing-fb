@@ -21,11 +21,11 @@ function Login(){
 
 
     function isValidPassword(password) {
-        return /^[a-zA-Z0-9]{8,32}$/.test(password);
+        return /^[a-zA-Z0-9]{1,32}$/.test(password);
     }
 
     function isValidUsername(username) {
-        return /^[a-zA-Z0-9]{8,32}$/.test(username);
+        return /^[a-zA-Z0-9]{1,32}$/.test(username);
     }
 }
 
